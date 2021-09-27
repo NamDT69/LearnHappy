@@ -1,0 +1,10 @@
+# Định nghĩa một class exception tùy chỉnh, nhận một thông báo là thuộc tính.
+##??????????????????????????????????? tai sao dug exception ms in dc
+class myerror(Exception):
+
+    def __init__(self, s):
+        self.s = s
+error = myerror("loi gi dau")
+print(error)
+# hay quas nhir huhuhihi cos gif dau
+# ee may tai sao khoong gox dduowc tieeng vieet

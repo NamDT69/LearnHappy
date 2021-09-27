@@ -1,0 +1,33 @@
+num1 = 9
+num2 = 8
+
+temp = num1
+num1 = num2 
+num2 = temp
+
+num1 = num1 + num2 // nếu cộng quá số bít sẽ sinh lỗi 
+num2 = num1 - num2
+num1 = num1 - num2
+
+num1^=num2^=num1^=num2
+
+^= xor , mà xor từ cuối lên đầu 
+
+
+
+============================
+
+ int i = 0;
+   // trả về  i = 0 giá trị đầu 
+   cout << 2*i++ << endl;
+   //phép gán i = i + 1 sẽ được gán sau cùng //
+   // tức i sẽ tạo  ra  i' sau đó 2 * i tức 2 * 0 sau đó nữa i = i' + 1; 
+   cout << i;
+   int k = 0;
+   int n = k ++;
+   // tức n = k , tạo ra k' , k = k' + 1;
+// ===========================================================================
+
+   int h = 0;
+   n  = ++h;
+   // h = h + 1 // n = h
