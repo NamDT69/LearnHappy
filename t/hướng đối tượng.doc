@@ -1,0 +1,18 @@
+class khi gán sẽ ok vì nó coppy mà ko thay đổi gía trị gốc , nó chứa trên stack(chủ yếu các biến trên stack lưa vào main khi được init) and heap
+// constructor ko thể là hàm ảo như hàm thành viên 
+// các property được khai báo local được lưa trong main stack
+// bản chất của kế thừa khi gọi hàm con constructor sẽ chạy đến hàm con sau đó , khởi tạo construct hàm cha nếu được định nghĩa còn ko sẽ gọi mặc định , sau khi 
+        //gọi hàm cha sẽ quay lại và chạy tiếp constructor hàm con
+        // vd: Child(int x) : Parent(x){} nếu được gọi , còn nếu ko viết cụ thể sẽ gọi theo mặc định 
+// khi sao chép đối tượng ko tạo constructor thì nó sẽ tự tạo và trỏ tới vùng nhớ mà đã khởi tạo.(shallow constructor)
+                // hãy cẩn thận khi gọi một đối tượng trong hàm vì nó sẽ lấy prameter gán lại nhưng khi đó cho dù ko truyền tham chiếu thì vẫn sẽ thay đổi
+                - Vì thế tùy trường hợp mình sẽ viết hàm constructor copy riêng tránh một dynamic chịu sự quản lý bởi 2 con trỏ (deep copy)
+         Trong C ++, một Copy Constructor có thể được gọi trong các trường hợp sau: 
+        1. Khi một đối tượng của lớp được trả về giá trị. 
+        2. Khi một đối tượng của lớp được truyền (cho một hàm) bởi giá trị như một đối số. 
+        3. Khi một đối tượng được xây dựng dựa trên một đối tượng khác cùng lớp. 
+        4. Khi trình biên dịch tạo một đối tượng tạm thời.
+        //nếu constructor sao chép bỏ vào private thì ko cho sao chép
+        // khi sao chép đối tượng hàm trả về trình biên dịch đã loại bỏ những thứ dư thưaf nó thực hiện copy sẵn luôn , vì dữ liệu vẫn ở trên cpu
+      (**)  copy elision đề cập đến một kỹ thuật tối ưu hóa trình biên dịch nhằm loại bỏ việc sao chép các đối tượng không cần thiết, và nhanh hơn nhưng có nhược điểm khi sao chép một bộ nhớ dộng
+có từ khóa virtual phải override lại // dùng để tạo interface

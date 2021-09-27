@@ -1,0 +1,237 @@
+NHỚ XEM LẠI NHỮNG GÌ MÌNH ĐÃ HỌC 
+
+có 64 Ô thì index(0 - 63) được tính là 2 mủ 64 - khi dùng một số cuối để lưa dâus thì (0 - 62 ) được tính là 2mủ 63
+
+import re search
+hay quas
+can le 
+oop
+cau truc du lieu 
+qua quas
+ǉuas dang laǌms luon dahdjash
+from operator import itemgetter, attrgetter
+
+-yield // giong nhu return nhung nos return tung phan tu 1 tich luy
+-lambda,// giong nhu 1 ham return ra ket qua do
+-map ,// su dung list lam 1 cai gi do
+-fittual, // lay list ra va loc no
+-potoclass, zip, getter, setter, deleter
+-textwrap// kiem soat cau van thut le , rut gon, xuong dong
+-intertool// loc theo cap list/ nhiieu chuc nang loc va tinh toan khac {
+   from itertools import product
+
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+địa chỉ function
+enum union // sử dụng bộ nhớ đè 
+print(*product(a, b))
+}
+bit array // hacker rank cần tìm hiểu thêm
+git reflog
+
+** quan trọng ::::::::::::pointer: bản chất là cộng và trừ : nghĩa là chương trình chạy nó cộng trừ các bit ;
+import re, intertool, intertool, operator.add
+ham: reduce
+tham chiếu
+
+Mutable vs Immutable Objects trong Python
+variable , bo nho
+https://viblo.asia/p/giai-dap-thac-mac-ve-variable-va-bo-nho-trong-python-Az45bzgz5xY
+laptrinh huowng doi tuong, cau truc du lieu va giai thuat 
+thuật toán Dijkstra
+memory cấp phát động 
+
+can hieu tong quan trc  nhu database linux. python
+ko nhin vao thoi giian , tap trung 1 cong viec
+
+hop trang la chua bien, hop dam la bien o ngoai, chuc nang la bat lua, cac chuc nang nhu for :claass: del :def luon tao mot bien ben canh
+vd :sorted(ha), ha.sorted, @classmethod, 
+
+bases bao gom tat ca cac doi tuong class co, dict bao gom tat ca cac phuong thuc cua class, 
+
+__new__ tao doi tuong, __init__ khoi tao no, __call__ goi no
+__hsajd tạo private
+
+
+
+kiểu dữ liệu:
+python :
+   bố cục bộ nhớ trong python:http://foobarnbaz.com/2012/07/08/understanding-python-variables/
+   map, mmap, maping là gì?
+
+
+c++:
+gdb là gì?
+   uint_fast64_t: giống với long long 8 9 bit gì đó tùy máy làm tăng hiệu suất xữ lí , cái này khá khó hiểu cần tìm tòi thêm
+
+   quản lý bộ nhớ:
+      [narendra@CentOS]$ gcc memory-layout.c -o memory-layout
+      [narendra@CentOS]$ size memory-layout
+   -cơ chế mmap : ánh  xạ
+   -có thể truy cập các phần tử trong stack thông qua định danh 
+   -Stack & Heap on Virtual memory : https://daynhauhoc.com/t/stack-heap-on-virtual-memory/32101
+   -định nghĩ call back trên wiki :
+         gọi lại là một tham chiếu đến một đoạn mã thực thi, được đưa vào hàm các thông số là địa chỉ các mã thực thi .
+         Điều này cho phép phần mềm lớp cấp thấp hơn để gọi một chương trình con được định nghĩa trong một lớp cấp cao hơn.:
+               
+               vd: trong main(){
+                  sum(4,5);// call back goi hàm sum //
+               }
+   -bộ nhớ được cấp phát theo nhiều cách: tự động (biến cục bộ trong hàm), tĩnh (biến toàn cục) và động (malloc hoặc mới). 
+
+   Smart Pointer :
+
+         unique_ptr : 1 pointer trỏ tới 1 vùng nhớ duy nhất, không cho ai trỏ vào, khi nó ko dùng nữa, nó tự hủy.
+
+         shared_ptr : 1 pointer trỏ tới vùng nhớ cho phép nhiều pointer trỏ vào. Khi tất cả các pointer không trỏ vào thì nó hủy.
+         Nhược, nếu A trỏ vào B mà B lại trỏ vào A thì ko bao giờ hủy dc.
+
+         weak_ptr : n pointer trỏ vào vùng nhớ, nó ko có quyền hủy, chỉ thao tác thôi.
+         
+
+      Virtual Table :
+         Tạo ra để map các method trong class, khi 1 instance tạo ra, lúc đó sẽ hình thành 1 con trỏ __vptr*,
+         để gọi các method của lớp cha hoặc chính nó thì con trỏ này sẽ làm nhiệm vụ nhảy đến method đã chỉ định lúc biên dịch,
+         đưa tham số vào và tiến hành thực thi.
+
+
+
+
+
+
+
+
+Bản chất chương trình sẽ chạy từ đầu đến cuối : chạy đến đâu các function sẽ được thêm vào stack ()//
+ khi chạy trên hàm main() các function sẽ được callback nếu được gọi , các biến sẽ có các định danh nên khi gọi sẽ ko sao hết
+
+web:
+   cgi là gì ?
+
+
+
+
+   Map là cái quái gì 
+
+sequence containers: std::vector, std::deque, std::array, std::list, std::forward_list, std::basic_string.
+associative container được sử dụng phổ biến là: std::set, std::map...// đã được sắp xếp dữ liệu
+Container adapter là các container được sử dụng cho các cấu trúc lưu trữ đặc biệt: std::stack, std::queue, ...
+
+
+
+tìm hiểu constructer với destructer hoạt   động như thế nào , 
+cơ chế stack 
+n graphics.h/ winbgim.h and sdl để làm game . học hướng đối tượng 
+
+webAssembly cực hay
+
+
+int fast vs int least là gì?
+
+* có 64 bít  .. ví dụ : (0 đến 63) 2 mủ x hay 2 mủ 64 - 1;
+
+inline function là một hàm khi gọi nhiều lần ko cần phải lưa vào stack và pop nó đi. mà chỉ cần gọi nó nó sẽ chứa một đoạn code trong stack và gọi nó ko cần pop
+// nhiều lần làm chậm khi gán các parameter // nhưng nó tăng kích thước bộ nhớ
+// trong class các method là các hàm inline fuction rồi // nó trên 1 dòng/ các phương thức được gọi là một inline còn ra ngoài class phải thêm inline
+	Trong C ++, bên trong lớp, các hàm có độ dài ngắn sẽ tự động trở thành các hàm nội tuyến
+
+khi gọi hàm CPU sẽ lưa lệnh gọi hàm vào địa chỉ sau đó sao chép các đối số  lên ngăn xếp sau đó chuyển quyền điều khiển cho ngăn xếp 
+   Hãy nhớ rằng, nội tuyến chỉ là một yêu cầu đối với trình biên dịch, không phải là một lệnh. Trình biên dịch có thể bỏ qua yêu cầu nội tuyến. Trình biên dịch có thể không thực hiện nội tuyến trong những trường hợp như:
+   1) Nếu một hàm chứa một vòng lặp. (for, while, do-while)
+   2) Nếu một hàm chứa các biến tĩnh.
+   3) Nếu một hàm là đệ quy.
+   4) Nếu kiểu trả về của hàm khác với void và câu lệnh trả về không tồn tại trong thân hàm.
+   5) Nếu một hàm chứa câu lệnh switch hoặc goto.
+
+   inline dùng trong code nhỏ mới đủ chỗ lưa -- nó được thực hiện bởi trình biên dịch còn marco bởi bộ tiền xữ lý
+   Virtual có nghĩa là đợi cho đến khi thời gian chạy và nội tuyến có nghĩa là trong quá trình biên dịch, nếu trình biên dịch không biết hàm nào sẽ được gọi,
+    làm thế nào nó có thể thực hiện nội tuyến?
+-- inline tạo ra code trực tiếp trên trình biên dịch mà ko cần gán giá trị như hàm hay marco trên tiền xử lýls
+
+Trong C ++, một khi một hàm thành viên được khai báo là một hàm ảo trong một lớp cơ sở, nó sẽ trở thành ảo trong mọi lớp dẫn xuất từ ​​lớp cơ sở đó.
+ Nói cách khác, không cần thiết phải sử dụng từ khóa virtual trong lớp dẫn xuất trong khi khai báo các phiên bản được xác định lại của hàm lớp cơ sở ảo.
+
+
+
+ Macro là các __call__  : __date__ , __ sau do __ định nghĩa bằng tiền xử lý define bởi tổ chức ANCI C
+
+ Bộ tiền xử lý Objective-C có #import, giống như #includenhưng chỉ bao gồm tệp một lần. 
+ Một pragma của nhà cung cấp phổ biến có chức năng tương tự trong C là #pragma one
+
+ #ifndefine 
+ #define afha // cái này sẽ định nghĩa và có trong tiền xử lý nên marco afha đã được định nghĩa trong tiền xử lý khi gọi lại sẽ ko thực hiện nữa
+
+90phut
+
+ tiền xử lý hay(preprocessor) nó thực hiện gộp các thư viện hay các  define lại thành một tệp sau đó compiler thành 1 file assembly . sau đó assember thành 1 file
+      object toàn là mã nhị phân , sau đó  các thành phần còn thiếu thì LINKER sử dụng các thư viện tiêu chuẩn kết hợp với object thành 1 file exe hay out  hoàn chỉnh
+      :: dừng sau tiền xử lý g++ -E tên file
+         sau compiler : -S
+         sau asembly : -C
+         hoàn tất hay sau linker là : -o// các thư viện dùng cung câp API để chương trình liên kết với kenel
+               //, quản lý bộ nhớ hay gì đó sẽ được link lại với chương trình
+         (tạo file library std: ar rcs test7.a test7.o)// chương trình sẽ nén thành file .a sử dụng như thư viện 
+         các file này muốn đọc phải dịch sang file nhị phân
+         - BỘ nạp (loader) : nạp code vào bộ nhớ memmory (Ram) , Loader là quá trình chạy của file exe cấp các phần tử vào bộ nhớ memmory
+         -- sau đó CPU sẽ thực thi chương trình-- loader chạy cùng với cpu
+
+      
+      argc is số lần nhập trên terminal,hay còn gọi là đối số dòng lệnh, argument count
+      **argv là các mục nhập :
+      vd : ./hay.exe 4 2 5 7 -3
+      thì argc = 6, argv[0] =./hay.exe đường dẫn tới nó từ root tơis nó. Nó được sử dụng khi người dùng nhập vào khi chạy dòng lệnh dể dàng hơn
+      , khi nhập vào nó sẽ gọi đến hệ thống điều này có thể bị lợi dụng gây ra lỗi hệ thống  
+
+
+
+      #include dùng được khai báo một tệp tiêu đề, nhưng 1 tệp tiêu đề ko phải là thư viện mà là khai báo một mẫu templte 
+               //dùng để khai báo sẵn hay giống như 1 interface, nó khai báo trước nếu dùng thì khi chạy nó sẽ tìm trên hệ thống và link file object đến LINKER
+      Thư viện là tập hợp các tệp đối tượng đã được biên dịch đó là c++:Nó định vị và gọi một hàm đã xuất và sắp xếp các đối số của nó (số nguyên, chuỗi, mảng, cấu trúc, v.v.) qua ranh giới tương tác khi cần thiết.
+                  // từ file manager source thành asembly sau đó thành file dll
+      //  Thư viện liên kết động (dll), các tệp trong thư viện được gọi sau khi chạy(loader) hàm main(), có thể tạo ra hay share nó nhưng mình đéo quan tâm 
+      // __BỔ sung :DLL là viết tắt của Dynamic Link Library (thư viện liên kết động). File DLL chứa những hướng dẫn mà các chương trình khác có thể gọi đến để làm một tác vụ nào đó.
+         //-File DLL chỉ là công cụ được phát triển để sử dụng mã chia sẻ và dữ liệu, cho phép nâng cấp các chức năng mà không cần phải tái liên kết hoặc tái biên dịch các ứng dụng.
+
+       -static-libstdc++//
+      -static-libgcc//
+
+      // Khi file asembly nền tảng gọi hàm không được quản lý , nó sẽ yêu cầu tạo ra một file lưa định vị địa chỉ của hàm , sau đó đưa file dll vào bộ nhớ
+            // sau đó nó chạy trên stack bình thường 
+
+                     Khi nền tảng gọi một hàm không được quản lý, nó sẽ thực hiện chuỗi hành động sau:
+
+               Định vị DLL chứa hàm.
+
+               Tải DLL vào bộ nhớ.
+
+               Định vị địa chỉ của hàm trong bộ nhớ và đẩy các đối số của nó vào ngăn xếp, sắp xếp dữ liệu theo yêu cầu.
+
+               (Ghi chú
+
+               Định vị và tải DLL, và định vị địa chỉ của hàm trong bộ nhớ chỉ xảy ra trong lần gọi hàm đầu tiên.)
+
+               Chuyển quyền kiểm soát sang chức năng không được quản lý.
+      --chạy lib MathLibrary.objđể liên kết mã và tìm nó ko tìm được thì tạo thư viện tĩnh MathLibrary.lib . lib là file được tạo để quản lý thư viện tĩnh
+
+      -- khi chạy file object nó sẽ tìm hàm nào chưa được quản lý thì sẽ tìm trong source có ko nếu ko có thì nó sẽ tạo ra một file lib//
+
+48
+
+         .a là một kho lưu trữ mã: được biên dịch nhưng không được liên kết. Bạn sẽ liên kết tĩnh với nó trong bước liên kết cuối cùng của chương trình.
+
+         .lib có thể giống với .a hoặc cái gọi là "thư viện nhập" huyền diệu: một trình giữ chỗ mỏng khiến bạn yêu cầu .dll trong thời gian chạy.
+
+
+         Trên hệ thống Unix, bạn có các .atệp. Đây là những kho lưu trữ đơn giản của các tệp đối tượng ( .o).
+
+         Trên Windows, có .lib các tệp, điều này hoàn toàn giống nhau, nhưng dành cho Windows thay vì Unix.
+
+         Một điều tinh tế khác là để liên kết một số mã với DLL (trên Windows), bạn phải liên kết với một .libtệp chứa các trình bao bọc đơn giản gọi DLL. 
+         Trên hệ thống Unix, theo truyền thống, không cần các trình bao bọc như vậy (trình liên kết đủ thông minh để tạo chúng một cách nhanh chóng).
+
+
+
+         constexpr là const nhưng nó được tính tại thời điểm biên dịch .nghĩa là constexpr int a = b + c; thì nó sẽ lấy b + c mặc dù chúng chưa biết gì
+         : nó ko phải là hàm ảo, nó phải trả về một kiểu số , nó phải được tính toán ngay tại thời điểm đó , khởi tạo ngay khi được sử dụng 
+         -const_cast dùng để tính const nhưng ko làm thay đổi chúng
+         -đối tượng hằng chỉ sử dụng phương thức hằng , phương thức hằng thì ko thay đổi trong quá trinhf thực hiện, và khi khai báo từ khóa const đằng sau tên 
+            phương thức , nếu muốn thay đổi giá trị phải có từ khóa Mutable

@@ -1,0 +1,10 @@
+// begin và (rbegin khác với end -1 vì nếu một array = 0 thì end = 0 sẽ ko có phần tử nào , nếu sử dụng for_each thì sẽ sinh lỗi)
+// begin vs cbegin liên quan đến iterator // cbegin thì cố đinhj ko thể lặp được 
+
+{
+    constexpr, noexcept, const sau hàm, static constexpr
+}
+constexpr tối ưa function rất tốt nhưng đéo biết bản chất, nhưng khi sử dụng nó phải trả về một tham số , khi trủyênf vào cũng phải 1 tham số để nó biết tính toán
+    // nó tính toán tại thời điểm mà compiler luôn ko phải tính toán lúc execute
+
+inline thì khi mở rộng biên dịch thì tính toán tại execute, còn constexpr thì tính toán tại thời điểm biên dịch luôn
